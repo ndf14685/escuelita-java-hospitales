@@ -4,7 +4,7 @@ public class PacienteHospitalMunizDTO {
 	String idpaciente;
 	String fechaAlta;
 	String antecedentes[]=new String[3];
-	String notasDelDoctor;
+	String  notasDelDoctor;
 
 	public String getIdpaciente() {
 		return idpaciente;

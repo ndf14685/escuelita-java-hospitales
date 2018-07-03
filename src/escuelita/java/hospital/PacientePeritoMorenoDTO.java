@@ -30,4 +30,11 @@ public class PacientePeritoMorenoDTO {
 	public void setNotasDelDoctor(String notasDelDoctor) {
 		this.notasDelDoctor = notasDelDoctor;
 	}	
+	public void PacientePeritoMorenoDTO(String idpaciente, String fechaAlta, String antecedentes[], String notasDelDoctor)
+	{
+		 setIdpaciente(idpaciente);
+		setFechaAlta(fechaAlta);
+		setAntecedentes(antecedentes);
+		setNotasDelDoctor(notasDelDoctor);
+	}
 }
