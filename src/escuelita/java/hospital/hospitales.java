@@ -2,7 +2,7 @@
 // pase de parametros entre metodos
 // lo complicada que es la comparacion de un string contra un numerico
 
-package hospitales;
+package escuelita.java.hospital;
 
 import java.io.BufferedReader;
 import java.io.File;
