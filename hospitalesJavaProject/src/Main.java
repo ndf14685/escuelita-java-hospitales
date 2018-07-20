@@ -8,12 +8,9 @@ import ar.santaCorp.historiasClinicas.events.EventManager;
 import ar.santaCorp.historiasClinicas.util.UtilClass;
 
 public class Main {
-	
 	public static void main(String [ ] args)
 	{
-		
 		SystemController systemController = new SystemController();
-		systemController.initialize();
-		
+		systemController.initialize();		
 	}
 }
