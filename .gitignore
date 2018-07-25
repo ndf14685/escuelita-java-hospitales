@@ -1,0 +1,4 @@
+# Ignoramos directorio de maven target donde se compila
+target/
+# Ignoramos los compilados del eclipse
+*.class

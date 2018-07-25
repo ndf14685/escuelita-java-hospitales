@@ -1,0 +1,3 @@
+17,Hospital Rivadavia,Maipu 200,15
+22,Hospital Central,Rivadavia 500,25
+14,Hospital Belgrano,Cabildo 200,15
