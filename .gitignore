@@ -2,3 +2,6 @@
 target/
 # Ignoramos los compilados del eclipse
 *.class
+.settings/
+.classpath
+.project
