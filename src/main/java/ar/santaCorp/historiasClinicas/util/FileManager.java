@@ -65,8 +65,12 @@ public class FileManager {
 			return _lineList;
 			
 		}catch(Exception e){
-			System.out.println("El archivo no pudo ser leido");
-	      }
+			System.out.println("El archivo no pudo ser leido "+e.getLocalizedMessage());
+			// agregado el e.getLocalizedMessage() para poder entender bien cual era el error
+			// El archivo no pudo ser leido src\test\resources\externalData\externalData\hospitalesPacientes\hospitalMoreno.txt (The system cannot find the path specified)
+			//                                                  /////////////////////// parte del path estaba repetido dos veces
+			// volvi a levantarlo del json
+		}
 		return null;
 	}
 	

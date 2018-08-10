@@ -7,7 +7,7 @@ public class Json {
 		
 	}
 	
-	public static boolean toJson(String p_json)
+	public static boolean zztoJson(String p_json)
 	{
 		JsonParser parser = new JsonParser();
 		
