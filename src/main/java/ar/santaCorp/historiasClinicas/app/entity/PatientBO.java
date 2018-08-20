@@ -24,6 +24,8 @@ public class PatientBO {
 		
 		public PatientBO(SystemController p_systemController)
 		{
+			System.out.println("systemController "+p_systemController);
+
 			this._systemController = p_systemController;
 			this.patientDAO = new PatientDAOImp();
 		}
