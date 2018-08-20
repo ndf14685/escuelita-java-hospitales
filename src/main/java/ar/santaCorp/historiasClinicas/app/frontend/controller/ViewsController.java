@@ -25,6 +25,15 @@ public class ViewsController {
 	
 	// guarda todas exceptuando la del login, sirve para ir a la inerface anterior cuando el usuario se termina de logear
 	private String prevLoginViewId;
+
+	
+	// @@GM agregado para poder hacer un dummy ViewsControllerForConsole 
+	// si no pongo este constructor vacio, como existe solamente 
+	// constructor con parametros, en la clase ViewsControllerForConsole 
+	// me obliga llamar a Super (p_systemController) y asi nunca desacopla
+	public ViewsController()
+	{
+	}
 	
 	public ViewsController(SystemController p_systemController)
 	{

@@ -71,6 +71,7 @@ public class PatientDAOImp implements IPatienteDAO {
 	public boolean createOrUpdatePatientsFromDataSource(String p_pathDataSoruce, int hospitalID) {
 		// TODO Auto-generated method stub
 		// primero pido el contenido del file dividido en lineas
+		
 		ArrayList fileLines = FileManager.getFileLines(p_pathDataSoruce);
 		
 		
