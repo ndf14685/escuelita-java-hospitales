@@ -25,6 +25,7 @@ public class HospitalBO {
 		
 		public HospitalBO(SystemController p_systemController)
 		{
+
 			this.systemController = p_systemController;
 			this.hospitalDAO = new HospitalDAO();
 			
@@ -46,7 +47,12 @@ public class HospitalBO {
 				HospitalVO tmpHospital = hospitalsList.get(i);
 				String pathPacientes = tmpHospital.getPathPacientes();
 				//System.out.println("******************pathPacientes ="+pathPacientes);
+				
+				if (systemController.getPatientBO()==null) System.out.println("getPatientBO null");
 				this.systemController.getPatientBO().processPacientesFromDataSource(pathPacientes, tmpHospital);
+				                                    
+
+				
 			}
 			
 			
